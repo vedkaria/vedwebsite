@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ved Karia - Software Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Left Sidebar -->
+        <aside class="sidebar">
+            <div class="profile-section">
+                <div class="profile-image">
+                    <img src="profile-photo.jpg" alt="Ved Karia">
+                </div>
+                <h1 class="name">Ved Karia</h1>
+                <p class="title">Computer Science (Intelligence & Systems Architecture) @ Georgia Tech</p>
+                <p class="subtitle">CodeSWVA Founder</p>
+            </div>
+            
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>vedkaria21@gmail.com</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <a href="https://github.com/vedkaria" target="_blank" class="contact-link">github.com/vedkaria</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>Georgia Institute of Technology</span>
+                </div>
+            </div>
+            
+            <button class="resume-btn">
+                <i class="fas fa-download"></i>
+                Download Resume
+            </button>
+            
+            <nav class="sidebar-nav">
+                <a href="#home" class="nav-item active">
+                    <i class="fas fa-home"></i>
+                </a>
+                <a href="#experience" class="nav-item">
+                    <i class="fas fa-briefcase"></i>
+                </a>
+                <a href="#projects" class="nav-item">
+                    <i class="fas fa-folder"></i>
+                </a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="hero-section">
+                <h1 class="hero-title">
+                    Software <span class="gradient-text">ENGINEER.</span>
+                </h1>
+            </div>
+
+            <!-- About Section -->
+            <section class="content-section" id="about">
+                <div class="section-header">
+                    <i class="fas fa-gem section-icon"></i>
+                    <h2>ABOUT</h2>
+                </div>
+                <p class="about-text">
+                    Hi, I'm Ved! I'm a student at Georgia Tech studying Computer Science with a concentration in Intelligence & Systems Architecture. 
+                    I'm passionate about software engineering, data analysis, and building impactful technology solutions. I founded CodeSWVA to bring 
+                    accessible computing education to underserved communities across southwest Virginia.
+                </p>
+            </section>
+
+            <!-- Experience Section -->
+            <section class="content-section" id="experience">
+                <div class="section-header">
+                    <i class="fas fa-gem section-icon"></i>
+                    <h2>EXPERIENCE</h2>
+                </div>
+                
+                <div class="experience-item">
+                    <div class="company-logo">
+                        <img src="ornl-logo.png" alt="Oak Ridge National Laboratory" class="company-logo-img">
+                    </div>
+                    <div class="experience-details">
+                        <h3>Computational Sciences Research Intern</h3>
+                        <div class="experience-meta">
+                            <span class="company">Oak Ridge National Laboratory</span>
+                            <span class="duration">June 2025 - July 2025</span>
+                        </div>
+                        <div class="experience-toggle">
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="experience-description">
+                        <ul>
+                            <li>Designed REST Flask APIs for molecular dynamics simulation data to enable query outputs on simulation metadata through custom React dashboards</li>
+                            <li>Integrated Kafka into local research pipelines to stream dynamics simulation data from distributed compute nodes into a centralized processing platform, reducing batch latency by ± 8%</li>
+                            <li>Containerized molecular dynamics configuration, timesteps and pressure conditions, with Docker and deployed them on Kubernetes clusters (helm deployed) for reproducible simulations</li>
+                            <li>Supplemented Prometheus monitoring into Kubernetes deployments to track performance of molecular dynamics workloads and further ensure reproducibility</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="company-logo">
+                        <img src="vt-logo.png" alt="Virginia Tech Research Institute" class="company-logo-img">
+                    </div>
+                    <div class="experience-details">
+                        <h3>Data Analyst</h3>
+                        <div class="experience-meta">
+                            <span class="company">Virginia Tech Research Institute</span>
+                            <span class="duration">October 2023 - June 2024</span>
+                        </div>
+                        <div class="experience-toggle">
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="experience-description">
+                        <ul>
+                            <li>Conducted field visits to 12 locations in eastern West Virginia to assess the efficacy of compounded Semaglutide as a drug abuse remediation inhibitor</li>
+                            <li>Logged real-time data to a centralized platform built on AWS IoT Core with data stored and managed in Amazon PostgreSQL, allowing for the generation of live-tracking Tableau dashboards</li>
+                            <li>Analyzed learning models in AWS SageMaker using longitudinal health and survey data to identify recovering outcome rates (presented at Eli Lilly in Indianapolis)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="company-logo">
+                        <img src="codeswva-logo.png" alt="CodeSWVA" class="company-logo-img">
+                    </div>
+                    <div class="experience-details">
+                        <h3>Founder</h3>
+                        <div class="experience-meta">
+                            <span class="company">CodeSWVA</span>
+                            <span class="duration">March 2022 - Current</span>
+                        </div>
+                        <div class="experience-toggle">
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="experience-description">
+                        <ul>
+                            <li>Lead a group of 21 members to bring accessible computing knowledge all across southwest Virginia</li>
+                            <li>Achieved over 200% membership growth (over 875 students helped), ranking as the fastest growing coding NPO organization across southwest Virginia for 2023 by CBS</li>
+                            <li>Donations from Amazon, Figma, Verizon, and the State of Virginia, totaling over $35,000</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section class="content-section" id="projects">
+                <div class="section-header">
+                    <i class="fas fa-gem section-icon"></i>
+                    <h2>PROJECTS</h2>
+                </div>
+                
+                <div class="project-item">
+                    <h3>City Map3D</h3>
+                    <p class="project-tech">React.js, TypeScript, Three.js, Leaflet, OpenStreetMap API, Tailwind CSS</p>
+                    <p class="project-description">
+                        Interactive web application that generates accurate 3D city models from user drawn polygons using real building data. 
+                        Built responsive UI with procedural texture generation and automatic height detection.
+                    </p>
+                    <a href="https://citymap3d.netlify.app" class="project-link" target="_blank">
+                        <i class="fas fa-external-link-alt"></i>
+                        View Project
+                    </a>
+                </div>
+
+                <div class="project-item">
+                    <h3>Synchronicity</h3>
+                    <p class="project-tech">Python, Flask, React.js, JavaScript, MongoDB</p>
+                    <p class="project-description">
+                        A live web-app that utilizes Fourier Transformations in order to speed up/slow down based on users' physical motion. 
+                        Developed UI integrated with Spotify for custom song selections, leveraging MongoDB to link tracks with YouTube Music for audio output with low latency.
+                    </p>
+                    <a href="https://synchronicity.vercel.app" class="project-link" target="_blank">
+                        <i class="fas fa-external-link-alt"></i>
+                        View Project
+                    </a>
+                </div>
+
+                <div class="project-item">
+                    <h3>Financial Sentiment Analysis Platform</h3>
+                    <p class="project-tech">Python, React.js, JavaScript, NLTK, BERT</p>
+                    <p class="project-description">
+                        Scraped and processed financial text data from SEC filings and Bloomberg Terminal feeds. 
+                        Built sentiment classification models using BERT to score financial disclosures and identify market signals.
+                    </p>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
